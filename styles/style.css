@@ -1,0 +1,53 @@
+main {
+display: flex;
+}
+
+.firstHalf {
+    flex: 2;
+}
+
+.secondHalf {
+    flex: 1;
+}
+
+
+
+
+
+#tweet {
+    width: 40%;
+    border:gray solid 2px;
+    margin:0 30%;
+}
+
+#colorline {
+background-color: rgb(92, 123, 165);
+height: 100px;
+}
+
+.content {
+    margin-top: -50px;
+    padding-left: 4%;
+}
+
+.face {
+    height: 100px;
+    border-radius: 50%;
+    border: black solid;
+}
+
+#location{
+    display: flex;
+    margin: 3% 0;
+}
+
+.settings {
+    display: flex;
+    margin: 7% 0;
+}
+
+.settings img, .locationIcon  {
+    height: 20px;
+}
+
+

@@ -1,0 +1,29 @@
+
+
+#education {
+    width: 40%;
+    border:gray solid 2px;
+    margin:5% 30%;
+}
+
+#colorline2 {
+    background-color: #333333;
+    height: 60px;
+    color: white;
+    }
+
+#colorline2 h2 {
+    padding: 1rem;
+}
+
+#educationContent {
+    padding-left: 4%;
+    margin: 3% 0;
+
+}
+
+.time {
+    padding-bottom: 4%;
+}
+
+

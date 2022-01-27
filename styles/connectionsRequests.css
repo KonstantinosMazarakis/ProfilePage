@@ -1,0 +1,47 @@
+
+
+#connectionsRequests {
+    width: 45%;
+    border:gray solid 2px;
+}
+
+#colorline3 {
+    background-color: #333333;
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.requestsNumber {
+    background-color: gray;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.requestsNumber p {
+    margin-top: 22%;
+}
+
+.request1 {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 5% 0;
+}
+
+.person {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: black solid 2px;
+}
+
+.check-x {
+    height: 40px;
+}
+
+
