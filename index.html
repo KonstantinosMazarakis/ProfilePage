@@ -37,7 +37,7 @@
             <div id="colorline"></div>
             <div class="content">
                 <img class="face" src="./assets/kirito.jpg" alt="dead kirito">
-                <h2>Konstantinos Mazarakis</h2>
+                <h2 id="name">Konstantinos Mazarakis</h2>
                 <div id="location">
                     <img class="locationIcon" src="./assets/map.png" alt="map icon">
                     <h3>Fishers</h3>
@@ -46,7 +46,7 @@
                 <p>Master of shadows and the Internet!</p>
                 <div class="settings">
                     <img src="./assets/gear.png" alt="gear icon">
-                    <a href="#">edit profile</a>
+                    <a href="#" id="edit" onclick="changeName()">edit profile</a>
                 </div>
             </div>
     </div>
@@ -70,27 +70,27 @@
 <article class="secondHalf">
     <div id="connectionsRequests">
         <div id="colorline3">
-            <div class="requestsNumber"><p>2</p></div>
+            <div class="requestsNumber"><p id="connRec">2</p></div>
             <h4>Connection Requests</h4>
         </div>
-        <div class="request1">
+        <div class="request1" id="rqst1">
             <img class="person" src="./assets/person2.jpg" alt="person1">
             <p>Todd E</p>
-            <img class="check-x" src="./assets/check.jpg" alt="person2">
-            <img class="check-x" src="./assets/x.png" alt="x">
+            <img class="check-x" onclick="removerplus()" src="./assets/check.jpg" alt="person2">
+            <img class="check-x" onclick="remover()" src="./assets/x.png" alt="x">
         </div>
-        <div class="request1">
+        <div class="request1" id="rqst2">
             <img class="person" src="./assets/person2.jpg" alt="person1">
             <p>Phil K</p>
-            <img class="check-x" src="./assets/check.jpg" alt="person2">
-            <img class="check-x" src="./assets/x.png" alt="x">
+            <img class="check-x" onclick="removerplus1()" src="./assets/check.jpg" alt="person2">
+            <img class="check-x" onclick="remover1()" src="./assets/x.png" alt="x">
         </div>
     </div>
 
 
     <div id="connections">
         <div id="colorline3">
-            <div class="connectionsNumber"><p>500+</p></div>
+            <div class="connectionsNumber"><p  id="connCount">500+</p></div>
             <h4>Your Connections</h4>
         </div>
         <div class="yourConnections">
@@ -122,5 +122,6 @@
 
 
 </main>
+<script src="./script.js"></script>
 </body>
 </html>
